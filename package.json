@@ -1,0 +1,12 @@
+{
+  "name": "today-recommended-music",
+  "version": "1.0.0",
+  "description": "For GitHub README",
+  "main": "index.js",
+  "repository": "https://github.com/cutls/today-recommended-music",
+  "author": "cutls",
+  "license": "MIT",
+  "devDependencies": {
+    "netlify-lambda": "^2.0.0"
+  }
+}
