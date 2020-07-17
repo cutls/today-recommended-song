@@ -23,6 +23,8 @@ exports.handler = async function (event, context, callback) {
     const shuffled = shuffle(json)
     const track = shuffled[0].track
     const artwork = track.album.images[0].url
+    const content = await axios.get(artwork, { responseType: 'arraybuffer' })
+    const base64_data = "data:image/jpeg;base64," + new Buffer(content.data).toString( 'base64' )
     let title = track.name
     if(title.length > 16) title = title.substr(0, getHowLongTitle(title)) + '...'
     let album = track.album.name
@@ -41,7 +43,7 @@ exports.handler = async function (event, context, callback) {
       fill="#FFFEFF"
       stroke="#E4E2E3"
     /> 
-    <image xlink:href="${artwork}" x="3" y="3" height="94" width="94" />
+    <image xlink:href="${base64_data}" x="3" y="3" height="94" width="94" />
     <text x="105" y="20" font-size="15">
         ${title}
     </text>
