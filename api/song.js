@@ -50,13 +50,13 @@ exports.handler = async function (event, context, callback) {
       stroke="#E4E2E3"
     /> 
     <image xlink:href="${base64_data}" x="3" y="3" height="94" width="94" />
-    <text x="103" y="20" font-size="15" style="font-family: sans-serif">
+    <text x="102" y="20" font-size="15" style="font-family: sans-serif">
         ${title}
     </text>
-    <text x="103" y="40" font-size="10" style="font-family: sans-serif">
+    <text x="102" y="40" font-size="10" style="font-family: sans-serif">
         ${album}
     </text>
-    <text x="103" y="60" font-size="10" style="font-family: sans-serif">
+    <text x="102" y="60" font-size="10" style="font-family: sans-serif">
         ${artist}
     </text>
     <text x="230" y="95" font-size="5" style="font-family: sans-serif">
