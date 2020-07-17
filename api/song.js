@@ -1,4 +1,5 @@
 const fs = require('fs')
+const axios = require('axios')
 const shuffle = ([...array]) => {
     for (let i = array.length - 1; i >= 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -15,6 +16,7 @@ const joinArtists = ([...array]) => {
     return display;
 }
 exports.handler = function (event, context, callback) {
+    
     const params = event.queryStringParameters
     const file = Object.keys(params)[0]
     if(file.match(/[^a-z]/gi)) return
@@ -61,7 +63,8 @@ exports.handler = function (event, context, callback) {
     });
 }
 function getJson(file) {
-    return JSON.parse(fs.readFileSync(`../../${file}.json`, 'utf8'))
+    const res = await axios.get(`https://${process.env.HOST}.netlify.app/${file}.json`);
+    return JSON.parse(res)
 }
 function getHowLong(str) {
     let long = 0

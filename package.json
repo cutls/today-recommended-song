@@ -11,6 +11,7 @@
   "author": "cutls",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.19.2",
     "netlify-lambda": "^2.0.0"
   }
 }
