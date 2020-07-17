@@ -19,4 +19,6 @@
 このレポジトリのsongs.jsonを参照。
 SpotifyのAPIの形式(items以下)と一緒です。
 
+`node index.js xxx.json`にSpotifyのプレイリストのJSONをitems以外も全部含めて突っ込むと、必要な分だけ取り出したやつを別名(xxx.json-compressed.json)で保存します。(クソコード)
+
 ソースコードがまともなじゃないので使用には注意
