@@ -10,7 +10,7 @@
 * songs.jsonをいじる
 * Netlifyと連携
 * 環境変数にHOST=xxxと設定。xxxは、xxx.netlify.appのxxx。
-* xxx.netlify.app/.netlify/functions.song?songにアクセスしたらOK
+* xxx.netlify.app/.netlify/functions/song?songにアクセスしたらOK
 * ?の後にsongsを設定すればsongs.jsonとなる
 
 ## songs.jsonの形式
