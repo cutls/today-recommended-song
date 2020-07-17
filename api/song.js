@@ -36,7 +36,7 @@ exports.handler = async function (event, context, callback) {
     let album = track.album.name
     if(album.length > getHowLong(album)) album = album.substr(0, getHowLong(album)) + '...'
     let artist = joinArtists(track.artists)
-    if(artist.length > getHowLong(album)) artist = artist.substr(0, getHowLong(artist)) + '...'
+    if(artist.length > getHowLong(artist)) artist = artist.substr(0, getHowLong(artist)) + '...'
     const svg = `
 <svg width="100%" height="100%" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <rect 
