@@ -1,4 +1,3 @@
-const fs = require('fs')
 const axios = require('axios')
 const shuffle = ([...array]) => {
     for (let i = array.length - 1; i >= 0; i--) {
@@ -15,12 +14,12 @@ const joinArtists = ([...array]) => {
     }
     return display;
 }
-exports.handler = function (event, context, callback) {
+exports.handler = async function (event, context, callback) {
     
     const params = event.queryStringParameters
     const file = Object.keys(params)[0]
     if(file.match(/[^a-z]/gi)) return
-    const json = getJson(file)
+    const json = await getJson(file)
     const shuffled = shuffle(json)
     const track = shuffled[0].track
     const artwork = track.album.images[0].url
@@ -62,9 +61,9 @@ exports.handler = function (event, context, callback) {
         body: svg
     });
 }
-function getJson(file) {
-    const res = await axios.get(`https://${process.env.HOST}.netlify.app/${file}.json`);
-    return JSON.parse(res)
+async function getJson(file) {
+    const res = await axios.get(`https://${process.env.HOST}.netlify.app/${file}.json`)
+    return res.data
 }
 function getHowLong(str) {
     let long = 0
