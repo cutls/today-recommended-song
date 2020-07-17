@@ -26,32 +26,35 @@ exports.handler = async function (event, context, callback) {
     const content = await axios.get(artwork, { responseType: 'arraybuffer' })
     const base64_data = "data:image/jpeg;base64," + new Buffer(content.data).toString( 'base64' )
     let title = track.name
-    if(title.length > 16) title = title.substr(0, getHowLongTitle(title)) + '...'
+    if(title.length > getHowLongTitle(title)) title = title.substr(0, getHowLongTitle(title)) + '...'
     let album = track.album.name
-    if(album.length > 16) album = album.substr(0, getHowLong(album)) + '...'
+    if(album.length > getHowLong(album)) album = album.substr(0, getHowLong(album)) + '...'
     let artist = joinArtists(track.artists)
-    if(artist.length > 16) artist = artist.substr(0, getHowLong(artist)) + '...'
+    if(artist.length > getHowLong(album)) artist = artist.substr(0, getHowLong(artist)) + '...'
     const svg = `
 <svg width="100%" height="100%" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <rect 
       data-testid="card-border"
       x="0.5"
       y="0.5"
-      width="300"
+      width="299"
       height="99%"
       rx="4.5"
-      fill="#FFFEFF"
+      fill="transparent"
       stroke="#E4E2E3"
     /> 
     <image xlink:href="${base64_data}" x="3" y="3" height="94" width="94" />
-    <text x="105" y="20" font-size="15">
+    <text x="103" y="20" font-size="15" style="font-family: sans-serif">
         ${title}
     </text>
-    <text x="105" y="40" font-size="10">
+    <text x="103" y="40" font-size="10" style="font-family: sans-serif">
         ${album}
     </text>
-    <text x="105" y="60" font-size="10">
+    <text x="103" y="60" font-size="10" style="font-family: sans-serif">
         ${artist}
+    </text>
+    <text x="230" y="95" font-size="5" style="font-family: sans-serif">
+        today-recommended-song
     </text>
 </svg>
 `
@@ -71,29 +74,29 @@ function getHowLong(str) {
     let long = 0
     let i = 0
     for(i = 0; i < str.length; i++) {
-        if(str[i].match(/[^a-z]/gi)) {
-            long = long + 13
+        if(!str[i].match(/[a-z/.@+-_*`'"!#$%&'()0-9~|]|\s/gi)) {
+            long = long + 9.5
         } else {
-            long = long + 7
+            long = long + 6.5
         }
         if(long > 195) {
-            break;
+            break
         }
     }
-    return i + 1
+    return i
 }
 function getHowLongTitle(str) {
     let long = 0
     let i = 0
     for(i = 0; i < str.length; i++) {
-        if(str[i].match(/[^a-z]/gi)) {
-            long = long + 17
+        if(!str[i].match(/[a-z/.@+-_*`'"!#$%&'()0-9~|]|\s/gi)) {
+            long = long + 16
         } else {
-            long = long + 10
+            long = long + 8.5
         }
         if(long > 195) {
-            break;
+            break
         }
     }
-    return i + 1
+    return i
 }
