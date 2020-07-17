@@ -61,7 +61,7 @@ exports.handler = function (event, context, callback) {
     });
 }
 function getJson(file) {
-    return JSON.parse(fs.readFileSync(`../${file}.json`, 'utf8'))
+    return JSON.parse(fs.readFileSync(`/${file}.json`, 'utf8'))
 }
 function getHowLong(str) {
     let long = 0
