@@ -15,7 +15,6 @@ const joinArtists = ([...array]) => {
     return display;
 }
 exports.handler = async function (event, context, callback) {
-    
     const params = event.queryStringParameters
     const file = Object.keys(params)[0]
     if(file.match(/[^a-z]/gi)) return
