@@ -3,13 +3,14 @@
 
 ## Demo
 
-<img src="https://trs-cutls.netlify.app/.netlify/functions/song?songs" width="200">
+<img src="https://trs-cutls.netlify.app/.netlify/functions/song?songs" width="400">
 
 ## 使い方
 
 * songs.jsonをいじる
 * Netlifyと連携
 * 環境変数にHOST=xxxと設定。xxxは、xxx.netlify.appのxxx。
+ソースコード変えたら他のJSONも参照できるけど、Netlify Functions弱者なので内部を直接参照できる方法がわからないので外部に公開してそのJSONを読んでください。
 * xxx.netlify.app/.netlify/functions/song?songにアクセスしたらOK
 * ?の後にsongsを設定すればsongs.jsonとなる
 
