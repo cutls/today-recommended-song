@@ -2,11 +2,15 @@
   "name": "today-recommended-music",
   "version": "1.0.0",
   "description": "For GitHub README",
+  "scripts": {
+    "build": "netlify-lambda build ./api",
+    "serve": "netlify-lambda serve ./api"
+  },
   "main": "index.js",
   "repository": "https://github.com/cutls/today-recommended-music",
   "author": "cutls",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "netlify-lambda": "^2.0.0"
   }
 }
