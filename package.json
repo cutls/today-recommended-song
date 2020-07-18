@@ -10,8 +10,18 @@
   "repository": "https://github.com/cutls/today-recommended-music",
   "author": "cutls",
   "license": "MIT",
+  "engines": {
+    "node": "^12.9.0"
+  },
   "dependencies": {
     "axios": "^0.19.2",
     "netlify-lambda": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/aws-lambda": "^8.10.59",
+    "@types/node": "^14.0.23",
+    "spotify-web-api-js": "^1.4.0",
+    "typescript": "^3.9.7"
   }
 }
