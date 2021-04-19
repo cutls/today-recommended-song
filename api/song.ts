@@ -1,12 +1,11 @@
 import axios from 'axios'
 import { Handler, Context, Callback, APIGatewayEvent } from 'aws-lambda'
 import { Song, ArtistObjectSimplified } from '../interface/interface'
-import * as fs from 'fs';
 
 const shuffle = (array: Song[]) => {
 	for (let i = array.length - 1; i >= 0; i--) {
 		const j = Math.floor(Math.random() * (i + 1))
-		;[array[i], array[j]] = [array[j], array[i]]
+			;[array[i], array[j]] = [array[j], array[i]]
 	}
 	return array
 }
@@ -20,14 +19,6 @@ const joinArtists = (array: ArtistObjectSimplified[]) => {
 }
 
 export const handler: Handler = async (event: APIGatewayEvent, context: Context, callback: Callback) => {
-	callback(null, {
-		headers: {
-			'Content-Type': 'text/plain',
-		},
-		statusCode: 200,
-		body: fs.readdirSync('./').join(','),
-	})
-	return
 	const params = event.queryStringParameters
 	const file = Object.keys(params)[0]
 	if (file.match(/[^a-z]/gi)) return
@@ -86,10 +77,8 @@ export const handler: Handler = async (event: APIGatewayEvent, context: Context,
 	})
 }
 async function getJson(file: String) {
-	const isHome = fs.readdirSync('./').includes('.babelrc')
-	const prefix = isHome ? 'api/' : ''
-	const json = fs.readFileSync(`${prefix}${file}.json`).toString()
-	return JSON.parse(json)
+	const res = await axios.get(`https://${process.env.HOST}.netlify.app/json/${file}.json`)
+	return res.data
 }
 function getHowLong(str: String) {
 	let long = 0

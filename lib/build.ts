@@ -7,10 +7,8 @@ async function main() {
     const jsons = fs.readdirSync('assets')
     for (const json of jsons) {
         if (!json.match(/.+\.json$/)) continue
-        fs.copyFileSync(`assets/${json}`, `api/${json}`)
-        if (!fs.existsSync('dist')) fs.mkdirSync('dist')
-        if (!fs.existsSync('dist/api')) fs.mkdirSync('dist/api')
-        fs.copyFileSync(`assets/${json}`, `dist/api/${json}`)
+        if (!fs.existsSync('json')) fs.mkdirSync('json')
+        fs.copyFileSync(`assets/${json}`, `json/${json}`)
     }
 
     if (!process.env.SPOTIFY_CLIENTID) return
@@ -68,8 +66,7 @@ async function main() {
             }
             output.push(song)
         }
-        fs.writeFileSync(`api/${playlistName}.json`, JSON.stringify(output))
-        fs.writeFileSync(`dist/api/${playlistName}.json`, JSON.stringify(output))
+        fs.writeFileSync(`json/${playlistName}.json`, JSON.stringify(output))
     }
 
 }

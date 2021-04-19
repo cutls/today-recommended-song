@@ -9,7 +9,7 @@
 
 * assets内にjsonを入れる
 * Netlifyと連携
-* 環境変数を設定
+* 環境変数にHOST=xxxと設定。xxxは、xxx.netlify.appのxxx。NODE_VERSION=14も指定。追加で下記のものも設定。
 * xxx.netlify.app/.netlify/functions/song?songsにアクセスしたらOK
 * ?の後にsongsを設定すればsongs.jsonとなる
 
