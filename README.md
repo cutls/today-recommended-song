@@ -7,18 +7,28 @@
 
 ## 使い方
 
-* songs.jsonをいじる
+* assets内にjsonを入れる
 * Netlifyと連携
-* 環境変数にHOST=xxxと設定。xxxは、xxx.netlify.appのxxx。NODE_VERSION=12も指定。
-ソースコード変えたら他のJSONも参照できるけど、Netlify Functions弱者なので内部を直接参照できる方法がわからないので外部に公開してそのJSONを読んでください。
-* xxx.netlify.app/.netlify/functions/song?songにアクセスしたらOK
+* 環境変数を設定
+* xxx.netlify.app/.netlify/functions/song?songsにアクセスしたらOK
 * ?の後にsongsを設定すればsongs.jsonとなる
 
-## songs.jsonの形式
+### 環境変数
 
-このレポジトリのsongs.jsonを参照。
+開発時は.envに指定しても動きます。
+
+Spotify連携を使わないときは不要です。
+
+* `SPOTIFY_CLIENTID`: SpotifyのクライアントID
+* `SPOTIFY_CLIENTSECRET`: Spotifyのクライアントシークレット
+* `SPOTIFY_PLAYLISTS`: カンマ区切りのSpotifyプレイリストID
+
+IDの後にカッコで名前を入れると、jsonの名前がそのカッコ内のものになります(つまり、/.netlify/functions/song?<名前>になります)  
+例  
+`SPOTIFY_PLAYLISTS: aaa(spotify1),bbb(spotify2)`  
+これで、/.netlify/functions/song?spotify1にアクセスするとプレイリストaaaの方が、spotify2にアクセスするとbbbのものが見れます。
+
+## assets内のjsonの形式
+
+このレポジトリのassets/songs.jsonを参照。
 SpotifyのAPIの形式(items以下)と一緒です。
-
-`node index.js xxx.json`にSpotifyのプレイリストのJSONをitems以外も全部含めて突っ込むと、必要な分だけ取り出したやつを別名(xxx.json-compressed.json)で保存します。(クソコード)
-
-ソースコードがまともなじゃないので使用には注意

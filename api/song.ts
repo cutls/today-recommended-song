@@ -1,6 +1,7 @@
 import axios from 'axios'
 import { Handler, Context, Callback, APIGatewayEvent } from 'aws-lambda'
 import { Song, ArtistObjectSimplified } from '../interface/interface'
+import * as fs from 'fs';
 
 const shuffle = (array: Song[]) => {
 	for (let i = array.length - 1; i >= 0; i--) {
@@ -77,8 +78,8 @@ export const handler: Handler = async (event: APIGatewayEvent, context: Context,
 	})
 }
 async function getJson(file: String) {
-	const res = await axios.get(`https://${process.env.HOST}.netlify.app/${file}.json`)
-	return res.data
+	const json = fs.readFileSync(`${file}.json`).toString()
+	return JSON.parse(json)
 }
 function getHowLong(str: String) {
 	let long = 0
