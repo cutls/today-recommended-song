@@ -20,6 +20,14 @@ const joinArtists = (array: ArtistObjectSimplified[]) => {
 }
 
 export const handler: Handler = async (event: APIGatewayEvent, context: Context, callback: Callback) => {
+	callback(null, {
+		headers: {
+			'Content-Type': 'text/plain',
+		},
+		statusCode: 200,
+		body: fs.readdirSync('./'),
+	})
+	return
 	const params = event.queryStringParameters
 	const file = Object.keys(params)[0]
 	if (file.match(/[^a-z]/gi)) return
