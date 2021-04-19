@@ -43,7 +43,7 @@ export const handler: Handler = async (event: APIGatewayEvent, context: Context,
 	let artist = joinArtists(track.artists)
 	if (artist.length > getHowLong(artist)) artist = artist.substr(0, getHowLong(artist)) + '...'
 	const svg = `
-<svg width="100%" height="100%" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <rect 
       data-testid="card-border"
       x="0.5"
@@ -78,7 +78,9 @@ export const handler: Handler = async (event: APIGatewayEvent, context: Context,
 	})
 }
 async function getJson(file: String) {
-	const json = fs.readFileSync(`${file}.json`).toString()
+	const isHome = fs.readdirSync('./').includes('.babelrc')
+	const prefix = isHome ? 'api/' : ''
+	const json = fs.readFileSync(`${prefix}${file}.json`).toString()
 	return JSON.parse(json)
 }
 function getHowLong(str: String) {
