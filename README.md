@@ -32,3 +32,5 @@ IDの後にカッコで名前を入れると、jsonの名前がそのカッコ�
 
 このレポジトリのassets/songs.jsonを参照。
 SpotifyのAPIの形式(items以下)と一緒です。
+
+Netlify Functionはローカルリソースの取得ができないため、環境変数の問題や一度デプロイして`xxx.netlify.app`としてアクセスできるようならないと開発環境は作動しないなど様々な制約があります。
