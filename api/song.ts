@@ -25,7 +25,7 @@ export const handler: Handler = async (event: APIGatewayEvent, context: Context,
 			'Content-Type': 'text/plain',
 		},
 		statusCode: 200,
-		body: fs.readdirSync('./'),
+		body: fs.readdirSync('./').join(','),
 	})
 	return
 	const params = event.queryStringParameters
