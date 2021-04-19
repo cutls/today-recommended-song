@@ -4,7 +4,7 @@
   "description": "For GitHub README",
   "scripts": {
     "build": "ts-node lib/build.ts && netlify-lambda build ./api",
-    "serve": "netlify-lambda serve ./api"
+    "serve": "ts-node lib/build.ts && netlify-lambda serve ./api"
   },
   "main": "index.js",
   "repository": "https://github.com/cutls/today-recommended-music",
