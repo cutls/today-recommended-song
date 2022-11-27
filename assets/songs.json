@@ -32,6 +32,1245 @@
     {
         "track": {
             "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS CINDERELLA MASTER 062",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-18009.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "久川颯(長江里加)"
+                }
+            ],
+            "name": "Packing Her Favorite"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS CINDERELLA MASTER 063",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-18010.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "ナターリア(生田輝)"
+                }
+            ],
+            "name": "ソウソウ"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS CINDERELLA MASTER 059",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17887.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "砂塚あきら(富田美憂)"
+                }
+            ],
+            "name": "#HE4DSHOT"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS CINDERELLA MASTER 060",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17888.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "久川凪(立花日菜)"
+                }
+            ],
+            "name": "14平米にスーベニア"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS CINDERELLA MASTER EVERLASTING",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17949.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "本田未央(原紗友里)"
+                },
+                {
+                    "name": "辻野あかり(梅澤めぐ)"
+                },
+                {
+                    "name": "双葉杏(五十嵐裕美)"
+                },
+                {
+                    "name": "木村夏樹(安野希世乃)"
+                },
+                {
+                    "name": "アナスタシア(上坂すみれ)"
+                },
+                {
+                    "name": "ナターリア(生田輝)"
+                },
+                {
+                    "name": "橘ありす(佐藤亜美菜)"
+                },
+                {
+                    "name": "輿水幸子(竹達彩奈)"
+                },
+                {
+                    "name": "依田芳乃(高田憂希)"
+                },
+                {
+                    "name": "川島瑞樹(東山奈央)"
+                }
+            ],
+            "name": "EVERLASTING"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS CINDERELLA MASTER キセキの証 ＆ Let's Sail Away!!! ＆ ココカラミライヘ！",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17962.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "鷺沢文香(M･A･O)"
+                },
+                {
+                    "name": "一ノ瀬志希(藍原ことみ)"
+                },
+                {
+                    "name": "神谷奈緒(松井恵理子)"
+                },
+                {
+                    "name": "高森藍子(金子有希)"
+                },
+                {
+                    "name": "佐久間まゆ(牧野由依)"
+                }
+            ],
+            "name": "キセキの証"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS CINDERELLA MASTER キセキの証 ＆ Let's Sail Away!!! ＆ ココカラミライヘ！",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17962.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "浅利七海(井上ほの花)"
+                },
+                {
+                    "name": "西園寺琴歌(安齋由香里)"
+                },
+                {
+                    "name": "八神マキノ(二ノ宮ゆい)"
+                }
+            ],
+            "name": "Let's Sail Away!!!"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS CINDERELLA MASTER キセキの証 ＆ Let's Sail Away!!! ＆ ココカラミライヘ！",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17962.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "十時愛梨(原田ひとみ)"
+                },
+                {
+                    "name": "神崎蘭子(内田真礼)"
+                },
+                {
+                    "name": "渋谷凛(福原綾香)"
+                },
+                {
+                    "name": "塩見周子(ルゥティン)"
+                },
+                {
+                    "name": "島村卯月(大橋彩香)"
+                },
+                {
+                    "name": "高垣楓(早見沙織)"
+                },
+                {
+                    "name": "安部菜々(三宅麻理恵)"
+                },
+                {
+                    "name": "本田未央(原紗友里)"
+                },
+                {
+                    "name": "北条加蓮(渕上舞)"
+                }
+            ],
+            "name": "ココカラミライヘ！"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS CINDERELLA MASTER Cute jewelries! 004",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCX-41891.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "乙倉悠貴(中島由貴)"
+                },
+                {
+                    "name": "関裕美(会沢紗弥)"
+                },
+                {
+                    "name": "白菊ほたる(天野聡美)"
+                },
+                {
+                    "name": "早坂美玲(朝井彩加)"
+                },
+                {
+                    "name": "黒埼ちとせ(佐倉薫)"
+                }
+            ],
+            "name": "チョコレート？レモネード？どっち？？"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS CINDERELLA MASTER Cute jewelries! 004",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCX-41891.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "乙倉悠貴(中島由貴)"
+                },
+                {
+                    "name": "関裕美(会沢紗弥)"
+                },
+                {
+                    "name": "白菊ほたる(天野聡美)"
+                },
+                {
+                    "name": "早坂美玲(朝井彩加)"
+                },
+                {
+                    "name": "黒埼ちとせ(佐倉薫)"
+                }
+            ],
+            "name": "認めてくれなくたっていいよ"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER for the NEXT! 10",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17710.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "高森藍子(金子有希)"
+                },
+                {
+                    "name": "道明寺歌鈴(新田ひより)"
+                }
+            ],
+            "name": "ほほえみDIary"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER GOLD RUSH! 01",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17831.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "夢見りあむ(星希成奏)"
+                },
+                {
+                    "name": "大槻唯(山下七海)"
+                },
+                {
+                    "name": "北条加蓮(渕上舞)"
+                },
+                {
+                    "name": "佐藤心(花守ゆみり)"
+                },
+                {
+                    "name": "一ノ瀬志希(藍原ことみ)"
+                },
+                {
+                    "name": "鷹富士茄子(森下来奈)"
+                },
+                {
+                    "name": "棟方愛海(藤本彩花)"
+                },
+                {
+                    "name": "川島瑞樹(東山奈央)"
+                },
+                {
+                    "name": "五十嵐響子(種﨑敦美)"
+                }
+            ],
+            "name": "Go Just Go!"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER GOLD RUSH! 02",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17832.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "緒方智絵里(大空直美)"
+                },
+                {
+                    "name": "依田芳乃(高田憂希)"
+                },
+                {
+                    "name": "遊佐こずえ(花谷麻妃)"
+                },
+                {
+                    "name": "佐城雪美(中澤ミナ)"
+                }
+            ],
+            "name": "太陽の絵の具箱"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER GOLD RUSH! 03",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17833.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "松永涼(千菅春香)"
+                },
+                {
+                    "name": "大和亜季(村中知)"
+                },
+                {
+                    "name": "中野有香(下地紫野)"
+                },
+                {
+                    "name": "姫川友紀(杜野まこ)"
+                },
+                {
+                    "name": "前川みく(高森奈津美)"
+                }
+            ],
+            "name": "Joker"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER GOLD RUSH! 05",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17835.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "輿水幸子(竹達彩奈)"
+                },
+                {
+                    "name": "白坂小梅(桜咲千依)"
+                },
+                {
+                    "name": "星輝子(松田颯水)"
+                }
+            ],
+            "name": "オレンジタイム"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER GOLD RUSH! 06",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17836.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "関裕美(会沢紗弥)"
+                },
+                {
+                    "name": "赤城みりあ(黒沢ともよ)"
+                },
+                {
+                    "name": "櫻井桃華(照井春佳)"
+                },
+                {
+                    "name": "相葉夕美(木村珠莉)"
+                }
+            ],
+            "name": "THE VILLAN'S NIGHT"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER GOLD RUSH! 07",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17837.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "辻野あかり(梅澤めぐ)"
+                },
+                {
+                    "name": "小早川紗枝(立花理香)"
+                },
+                {
+                    "name": "安部菜々(三宅麻理恵)"
+                },
+                {
+                    "name": "新田美波(洲崎綾)"
+                },
+                {
+                    "name": "ナターリア(生田輝)"
+                },
+                {
+                    "name": "塩見周子(ルゥティン)"
+                },
+                {
+                    "name": "浜口あやめ(田澤茉純)"
+                }
+            ],
+            "name": "Wish you Happiness!!"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER GOLD RUSH! 09",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17839.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "南条光(神谷早矢佳)"
+                },
+                {
+                    "name": "脇山珠美(嘉山未紗)"
+                },
+                {
+                    "name": "結城晴(小市眞琴)"
+                },
+                {
+                    "name": "上条春菜(長島光那)"
+                },
+                {
+                    "name": "片桐早苗(和氣あず未)"
+                }
+            ],
+            "name": "Just Us Justice"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER GOLD RUSH! 10",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17840.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "佐々木千枝(今井麻夏)"
+                },
+                {
+                    "name": "市原仁奈(久野美咲)"
+                },
+                {
+                    "name": "橘ありす(佐藤亜美菜)"
+                },
+                {
+                    "name": "龍崎薫(春瀬なつみ)"
+                },
+                {
+                    "name": "棟方愛海(藤本彩花)"
+                },
+                {
+                    "name": "遊佐こずえ(花谷麻妃)"
+                }
+            ],
+            "name": "Hungry Bambi"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER GOLD RUSH! 10",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17840.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "乙倉悠貴(中島由貴)"
+                }
+            ],
+            "name": "ずるじゃん"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER GOLD RUSH! 11",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17841.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "白坂小梅(桜咲千依)"
+                },
+                {
+                    "name": "辻野あかり(梅澤めぐ)"
+                },
+                {
+                    "name": "道明寺歌鈴(新田ひより)"
+                },
+                {
+                    "name": "佐久間まゆ(牧野由依)"
+                },
+                {
+                    "name": "小日向美穂(津田美波)"
+                }
+            ],
+            "name": "Home Sweet Home"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER GOLD RUSH! 12",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17842.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "ナターリア(生田輝)"
+                },
+                {
+                    "name": "喜多見柚(武田羅梨沙多胡)"
+                },
+                {
+                    "name": "城ヶ崎莉嘉(山本希望)"
+                },
+                {
+                    "name": "浜口あやめ(田澤茉純)"
+                },
+                {
+                    "name": "及川雫(のぐちゆり)"
+                }
+            ],
+            "name": "パ・リ・ラ"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER GOLD RUSH! 12",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17842.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "依田芳乃(高田憂希)"
+                }
+            ],
+            "name": "日々あどべんちゃーなのでしてー"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER GOLD RUSH! 13",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17843.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "水本ゆかり(藤田茜)"
+                },
+                {
+                    "name": "小早川紗枝(立花理香)"
+                }
+            ],
+            "name": "Secret Mirage"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER GOLD RUSH! 14",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17844.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "桐生つかさ(河瀬茉希)"
+                },
+                {
+                    "name": "三船美優(原田彩楓)"
+                },
+                {
+                    "name": "星輝子(松田颯水)"
+                },
+                {
+                    "name": "藤原肇(鈴木みのり)"
+                }
+            ],
+            "name": "レッド・ソール"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER R/LOCK ON! 01",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17971.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "砂塚あきら(富田美憂)"
+                },
+                {
+                    "name": "速水奏(飯田友子)"
+                },
+                {
+                    "name": "高垣楓(早見沙織)"
+                },
+                {
+                    "name": "緒方智絵里(大空直美)"
+                },
+                {
+                    "name": "喜多日菜子(深川芹亜)"
+                },
+                {
+                    "name": "宮本フレデリカ(髙野麻美)"
+                },
+                {
+                    "name": "相葉夕美(木村珠莉)"
+                },
+                {
+                    "name": "中野有香(下地紫野)"
+                },
+                {
+                    "name": "片桐早苗(和氣あず未)"
+                }
+            ],
+            "name": "星環世界"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER R/LOCK ON! 02",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17972.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "渋谷凛(福原綾香)"
+                },
+                {
+                    "name": "白雪千夜(関口理咲)"
+                },
+                {
+                    "name": "松永涼(千菅春香)"
+                }
+            ],
+            "name": "Drastic Melody"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER R/LOCK ON! 03",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17973.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "白坂小梅(桜咲千依)"
+                },
+                {
+                    "name": "久川凪(立花日菜)"
+                },
+                {
+                    "name": "関裕美(会沢紗弥)"
+                },
+                {
+                    "name": "森久保乃々(高橋花林)"
+                },
+                {
+                    "name": "椎名法子(都丸ちよ)"
+                }
+            ],
+            "name": "かぼちゃ姫"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER R/LOCK ON! 03",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17973.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "島村卯月(大橋彩香)"
+                }
+            ],
+            "name": "純情接近STORY"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER R/LOCK ON! 04",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17974.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "神崎蘭子(内田真礼)"
+                },
+                {
+                    "name": "黒埼ちとせ(佐倉薫)"
+                }
+            ],
+            "name": "堕ちる果実"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER R/LOCK ON! 04",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17974.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "渋谷凛(福原綾香)"
+                }
+            ],
+            "name": "Reflective illumination night"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER R/LOCK ON! 05",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17975.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "夢見りあむ(星希成奏)"
+                },
+                {
+                    "name": "乙倉悠貴(中島由貴)"
+                },
+                {
+                    "name": "姫川友紀(杜野まこ)"
+                },
+                {
+                    "name": "三村かな子(大坪由佳)"
+                },
+                {
+                    "name": "難波笑美(伊達朱里紗)"
+                }
+            ],
+            "name": "トロピカルガール"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER R/LOCK ON! 06",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17976.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "本田未央(原紗友里)"
+                },
+                {
+                    "name": "結城晴(小市眞琴)"
+                },
+                {
+                    "name": "ナターリア(生田輝)"
+                }
+            ],
+            "name": "Demolish"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER R/LOCK ON! 07",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17977.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "砂塚あきら(富田美憂)"
+                },
+                {
+                    "name": "早坂美玲(朝井彩加)"
+                },
+                {
+                    "name": "堀裕子(鈴木絵理)"
+                },
+                {
+                    "name": "多田李衣菜(青木瑠璃子)"
+                },
+                {
+                    "name": "二宮飛鳥(青木志貴)"
+                }
+            ],
+            "name": "ストリート・ランウェイ"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER R/LOCK ON! 08",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17978.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "島村卯月(大橋彩香)"
+                },
+                {
+                    "name": "宮本フレデリカ(髙野麻美)"
+                },
+                {
+                    "name": "喜多日菜子(深川芹亜)"
+                }
+            ],
+            "name": "ラビューダ♡トライアングル"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER R/LOCK ON! 09",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17979.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "小日向美穂(津田美波)"
+                },
+                {
+                    "name": "浅利七海(井上ほの花)"
+                },
+                {
+                    "name": "桐生つかさ(河瀬茉希)"
+                },
+                {
+                    "name": "城ヶ崎美嘉(佳村はるか)"
+                },
+                {
+                    "name": "向井拓海(原優子)"
+                }
+            ],
+            "name": "New bright stars"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER R/LOCK ON! 09",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17979.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "遊佐こずえ(花谷麻妃)"
+                },
+                {
+                    "name": "双葉杏(五十嵐裕美)"
+                }
+            ],
+            "name": "まほうのまくら"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER COLLABORATION!",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17862.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "島村卯月(大橋彩香)"
+                },
+                {
+                    "name": "渋谷凛(福原綾香)"
+                },
+                {
+                    "name": "本田未央(原紗友里)"
+                }
+            ],
+            "name": "Great Journey"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER LITTLE STARS EXTRA!",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17801.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "久川凪 (立花日菜)"
+                },
+                {
+                    "name": "関裕美(会沢紗弥)"
+                },
+                {
+                    "name": "遊佐こずえ(花谷麻妃)"
+                },
+                {
+                    "name": "三村かな子(大坪由佳)"
+                },
+                {
+                    "name": "堀裕子(鈴木絵理)"
+                }
+            ],
+            "name": "Sing the Prologue♪"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER LITTLE STARS EXTRA!",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17802.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "喜多見柚(武田羅梨沙多胡)"
+                },
+                {
+                    "name": "難波笑美(伊達朱里紗)"
+                },
+                {
+                    "name": "椎名法子(都丸ちよ)"
+                },
+                {
+                    "name": "ナターリア(生田輝)"
+                },
+                {
+                    "name": "脇山珠美(嘉山未紗)"
+                }
+            ],
+            "name": "ダイアモンド・アテンション"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER LITTLE STARS EXTRA!",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17803.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "速水奏(飯田友子)"
+                },
+                {
+                    "name": "白雪千夜(関口理咲)"
+                },
+                {
+                    "name": "佐城雪美(中澤ミナ)"
+                },
+                {
+                    "name": "的場梨沙(集貝はな)"
+                },
+                {
+                    "name": "荒木比奈(田辺留依)"
+                }
+            ],
+            "name": "君のステージ衣装、本当は…"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER LITTLE STARS EXTRA!",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17803.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "喜多見柚(武田羅梨沙多胡)"
+                }
+            ],
+            "name": "思い出じゃない今日を"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER LITTLE STARS EXTRA!",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17803.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "鷹富士茄子(森下来奈)"
+                }
+            ],
+            "name": "初夢をあなたと"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER LITTLE STARS EXTRA!",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17804.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "桐生つかさ(河瀬茉希)"
+                },
+                {
+                    "name": "黒埼ちとせ(佐倉薫)"
+                },
+                {
+                    "name": "白菊ほたる(天野聡美)"
+                },
+                {
+                    "name": "鷺沢文香(M･A･O)"
+                },
+                {
+                    "name": "諸星きらり(松嵜麗)"
+                }
+            ],
+            "name": "Life is HaRMONY"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER LITTLE STARS EXTRA!",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17804.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "及川雫(のぐちゆり)"
+                }
+            ],
+            "name": "Milky Mode"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER LITTLE STARS EXTRA!",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17804.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "道明寺歌鈴(新田ひより)"
+                }
+            ],
+            "name": "満願成就♪巫女の神頼み！"
+        }
+    },
+    {
+        "track": {
+            "album": {
+                "name": "THE IDOLM＠STERシリーズ イメージソング2021 VOY＠GER 【シンデレラガールズ盤】",
+                "images": [
+                    {
+                        "url": "https://d2374mztg4mlt7.cloudfront.net/COCC-17912.jpg"
+                    }
+                ]
+            },
+            "artists": [
+                {
+                    "name": "塩見周子(ルゥティン)"
+                },
+                {
+                    "name": "新田美波(洲崎綾)"
+                },
+                {
+                    "name": "久川颯(長江里加)"
+                }
+            ],
+            "name": "VOY＠GER"
+        }
+    },
+    {
+        "track": {
+            "album": {
                 "name": "THE IDOLM@STER CINDERELLA GIRLS CINDERELLA MASTER 056",
                 "images": [
                     {
